@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/ypn7ljp.css">
+</head>
+
+<body>
+    <div id="container">
+        <a href="index.html"><img src="logo.jpg" width="225px"></a>
+        <div id="header">
+            <a href="authmain.php" class="button">Book Appointment</a>
+            <div id="nav">
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="page-intro">
+            <h1>Patient Registration</h1>
+        </div>
+
+        <form action="register.php" method=POST>
+            <table border="0" align="center" class="new-appointment">
+                <tr>
+                    <td class="left-column"><label>First Name: </label></td>
+                    <td><label>Last Name: </label></td>
+                </tr>
+                <tr>
+                    <td class="left-column"><input type=text name=firstname class="registration-row"></td>
+                    <td><input type=text name=lastname class="registration-row"></td>
+                </tr>
+                <tr>
+                    <td class="left-column"><label>Email: </label></td>
+                    <td><label>Phone number: </label></td>
+                </tr>
+                <tr>
+                    <td class="left-column"><input type=email name=email class="registration-row"></td>
+                    <td><input type=text name=phone class="registration-row"></td>
+                </tr>
+                <tr>
+                    <td class="left-column"><label>Password: </label></td>
+                    <td><label>Password: </label></td>
+                </tr>
+                <tr>
+                    <td class="left-column"><input type=password name=password class="registration-row"></td>
+                    <td><input type=password name=password2 class="registration-row"></td>
+                </tr>
+            </table>
+            <br />
+
+            <div style="text-align:center;">
+                <input type="submit" value="Create Account" name="createaccount" id="createaccount" class="button">
+            </div>
+        </form>
+    </div>
+    <footer id="patient-registration-footer">
+        <table align="center">
+            <tr>
+                <td rowspan="3"><img src="logo.jpg" width="175px"></td>
+                <td>Smile Again Dentists</td>
+                <td>Tel: (+254) 700-0000</td>
+            </tr>
+            <tr>
+                <td>123 Road Name St.Annes</td>
+                <td>Fax: (+254) 700-0000</td>
+            </tr>
+            <tr>
+                <td>Singapore 010000</td>
+                <td>Email: SmileAgainDentists@email.com</td>
+            </tr>
+        </table>
+        <br><br>
+        <small>&copy; Smile Again Dentists 2019. All Rights Reserved.</small>
+    </footer>
+</body>
+
+</html>

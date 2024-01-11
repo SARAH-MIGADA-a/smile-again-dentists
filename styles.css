@@ -1,0 +1,420 @@
+/* Global styling begins */
+
+/* text styling begins */
+*{
+    margin: 0;
+}
+body{
+    background: linear-gradient(234deg, rgb(8, 105, 202), rgb(131, 214, 241));     
+}
+h1{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px; 
+}
+
+h2{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px; 
+    text-transform: uppercase; 
+}
+
+h3{ 
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; 
+    line-height: 1.6; 
+    text-transform: uppercase;
+}
+
+h4{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;  
+}
+
+p{ 
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; 
+    line-height: 2; 
+    text-align: justify;
+}
+
+.large{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px; 
+    line-height: 1.6; 
+}
+
+label {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px; 
+    text-transform: uppercase;
+}
+/* text styling ends */
+
+
+/* Navigation/header styling begins */
+#nav{
+    margin-top: 30px; 
+}
+
+#header li{
+    display: inline; 
+    padding: 50px; 
+    padding-right: 0px; 
+    border-right: 1px solid black; 
+    padding: 0px 50px 0px 40px; 
+}
+
+#header{
+    text-align: right; 
+    float: right;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 19px; 
+    margin-top: 10px; 
+}
+
+#header li a{
+    text-decoration: none; 
+    color: black; 
+}
+#header li:last-child{
+    border: 0px; 
+    padding: 0px 0px 0px 50px; 
+}
+
+#header a:hover{
+    color: #5C5C5C;
+}
+/* Navigation/header styling ends */ 
+
+/* Footer styling begins */ 
+footer{ 
+    background-color: #f2f2f2;
+    padding: 70px 0 30px 0; 
+    text-align: center; 
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 17px; 
+}
+
+table{
+    text-align: left; 
+}
+
+small{
+    text-align: center; 
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px; 
+}
+
+td{
+    padding: 0px 70px; 
+}
+/* Footer styling ends */
+
+
+/* Call to action styling begins */
+.button{ 
+    background-color: lightblue; 
+    color: black; 
+    border: 2px solid silver; 
+    padding: 10px 40px; 
+    text-align: center; 
+    text-decoration: none;  
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 19px;
+    border-radius: 13px;
+}
+
+.button a:hover{ 
+    color: #5C5C5C;
+    border: 2px solid #5C5C5C;
+    animation-delay: 1s;
+    animation: running;
+    text-decoration: blink;
+
+}
+.button:hover{
+    color: red;
+    background-color: blue;
+    cursor: pointer;
+    transition-delay: .3s;
+    transition-duration: 1s;
+    transition-property: all;
+    border-radius: 45px;
+
+}
+
+.link{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; 
+    color: black; 
+    text-decoration: none;
+    float: right; 
+}
+/* Call to action styling ends */
+
+
+#container{ 
+    width: 80%; 
+    margin: auto; 
+    min-width: 850px;
+    margin-top: 25px; 
+}
+
+.text-block{
+    position: absolute; 
+    background-color: white; 
+    color: black; 
+    width: 45%;
+    top: 70%; 
+    left: 25%; 
+    padding: 20px 60px 0px 60px; 
+    margin-bottom:80px; 
+}
+.text-block p{
+    font-size: 13px;
+    font-family: sans-serif,serif;
+}
+.text-block h3{
+    padding-top: 12px;
+    color: darkblue;
+    font-weight: bold;
+    font-family: monospace, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#page-intro{ 
+    margin: 70px 0; 
+    width: 80%; 
+}
+/* Global styling ends */
+
+
+/* Index styling begins */
+.index-content{
+    padding: 150px 0 100px 0; 
+}
+
+.tips-wrapper{ 
+    padding: 30px 0;  
+}
+
+#tips-1{
+    float: right; 
+    width: 140px; 
+    margin-left: 125px; 
+    margin-right: 25px; 
+}
+
+#tips-2{
+    float: left; 
+    height: 140px; 
+    margin-right: 125px; 
+    margin-left: 25px; 
+    margin-top: 65px; 
+}
+
+#tips-3{
+    float: right; 
+    width: 120px; 
+    margin-left: 125px; 
+    margin-right: 25px; 
+    margin-top: 65px; 
+}
+/* Index styling ends */
+
+/* About styling begins */ 
+#footer-about{ 
+    margin-top: 575px; 
+}
+/* Index styling ends */ 
+
+/* Our Dentists styling starts */ 
+.dentists{ 
+    width: 300px; 
+    float: left; 
+    margin-right: 100px; 
+}
+
+.dentist-wrapper{ 
+    padding: 0 0 150px 0; 
+}
+
+.bio{ 
+    overflow: hidden;
+}
+/* Our Dentists styling ends */
+
+/* Services styling begins */
+.services-title{
+    padding: 0 0; 
+    white-space: nowrap;
+    vertical-align: top; 
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(darkblue);
+}
+
+.services-price{
+    padding: 0; 
+    vertical-align: top; 
+    color: blue;
+}
+
+#footer-services{
+    margin-top: 100px; 
+}
+/* Services styling ends */
+
+/* Contact styling begins */
+.main-office{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;;
+    font-size: 17px; 
+    padding-bottom: 75px; 
+    color: blue;
+}
+
+.left-column{
+    padding-left: 0; 
+}
+
+.contact{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 17px; 
+    padding-bottom: 75px; 
+    width: 125%; 
+}
+
+.contact-dentists{
+    padding-left: 0;
+}
+/* Contact styling ends */
+
+/* Appointment styling begins */
+.upcoming-appointments{
+    border: 1px black solid;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; 
+    width: 60%;
+    padding: 20px 0;
+}
+
+.upcoming-left{
+    padding: 20px 0; 
+}
+
+.appointment-link{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; 
+    color: black; 
+    text-decoration: none;
+}
+
+.new-appointment{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px; 
+}
+
+.dropdown{
+    width: 300px; 
+    height: 40px; 
+    border: 2px solid black; 
+    background-color: white; 
+    color: black; 
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px; 
+    border-radius: 0;
+}
+
+.date-select{ 
+    background-color: white; 
+    color: black; 
+    border: 2px solid black; 
+    padding: 0 10px; 
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    font-size: 16px;
+    height: 40px; 
+    width: 275px;  
+}
+
+#new-appointment-wrapper{
+    margin: 75px 0; 
+}
+/* Appointment styling ends */
+
+/* Authentication styling begins */
+.text-input{
+    border: 2px solid black; 
+    width: 420px; 
+    height: 40px; 
+}
+
+.no-account{
+    padding-left: 0; 
+    padding-top: 20px; 
+    padding-bottom: 300px; 
+}
+/* Authentication styling ends */
+
+/* Patient Registration styling begins */
+.registration-row{
+    margin-bottom: 50px; 
+    border: 2px solid black; 
+    width: 420px; 
+    height: 40px; 
+}
+
+#patient-registration-footer{
+    margin-top: 150px; 
+}
+.new-td{
+	padding: 0;
+}
+
+#logout-footer{
+	margin-top: 150px; 
+}
+.text-block{
+    padding-bottom: 15px;
+}
+#footer-about{
+    background: linear-gradient(to bottom, darkblue, lightblue);
+}
